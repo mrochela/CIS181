@@ -1,0 +1,211 @@
+
+
+/*style for the image in the main page*/
+#main_picture_menu {
+    display: block;
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+ }
+
+
+
+
+ /*Navigation menu style*/
+ 
+ .main_navigation_menu li a {
+    font-size: 30px; 
+    font-family: cursive;
+ }
+
+ .main_navigation_menu {
+    text-align: center; 
+    background-color: lightblue; 
+  }
+  
+
+   .main_navigation_menu li {
+      display: inline; 
+      margin-right: 10px; 
+   }
+
+
+   .main_navigation_menu li a {
+    text-decoration: none; 
+      color: #0a34cd; 
+      padding: 10px; 
+   }
+   .main_navigation_menu li a:hover {
+      background-color: pink; 
+   }
+
+
+/*This is for the drop down menu*/
+
+
+.dropdown {
+   position: relative;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: lightblue;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+   top: 100%; 
+   left: 0; 
+ }
+ 
+ .dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown-content a:hover {
+   background-color: pink;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+
+   /*About us header styling*/
+
+h1 {
+   text-align: center;
+   font-family: cursive;
+   font-weight: bolder;
+}
+
+
+/*This is the style for the video in the main page*/
+.video_main_page {
+   position: relative;
+   width: 80%; 
+   max-width: 1000px; 
+   height: 10px;
+   padding-bottom: 35%; 
+   margin: 50px auto; 
+  }
+
+  .video_main_page video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+  }
+
+/*This is the style for the paragraph in the main page*/
+p {
+   font-family: cursive;
+   font-size: 20px;
+   text-align: center;
+}
+
+/*This is the style for the ordered list*/
+
+#numbered_list {
+   color: purple;
+   font-family: cursive;
+   font-size: 18px;
+  
+}
+.numbered_list_div {
+   text-align: center;
+}
+#numbered_list li {
+   text-align: left;
+   align-items: center;
+  
+}
+
+
+   /* Styling the contact us Form*/
+
+   form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: auto;
+      font-size: larger;
+      
+  }
+  
+  label {
+      margin-bottom: 5px;
+  }
+  
+  input {
+   margin-bottom: 30px;
+  }
+
+  select{
+   margin-bottom: 30px;
+  }
+  textarea {
+      margin-bottom: 30px;
+  }
+  
+  input[type="submit"] {
+      margin-top: 10px;
+      
+  }
+   
+  form h1 {
+   font-family: cursive;
+   font-weight: bold;
+   color: darkblue;
+  }
+  #explanation {
+   padding: 20px;
+  }
+
+  #emergency_contact {
+   color: red;
+   font-size: 25px;
+   font-weight: bold;
+   
+  }
+
+  
+/*the image looks bad if I pick cover, but I really liked this picture*/
+  .image_for_contact_page {
+   background-image: url(messages.jpg);
+   background-size: auto;
+  }
+
+
+
+
+  /*style for the in page navigation menu*/
+  .nav_bar {
+   font-size: 25px; 
+   font-family: cursive;
+   text-align: center;
+}
+.nav_bar li a{
+   text-decoration: none; 
+     color: #0a34cd; 
+     padding: 10px; 
+     
+}
+
+.nav_bar li {
+   margin-bottom: 10px;
+   display: inline;
+}
+  
+.nav_bar a:hover {
+   background-color: pink;
+}
+
+/*style for the background of some pages*/
+#background_color_website {
+   background-color: beige;
+}

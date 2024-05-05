@@ -1,0 +1,136 @@
+/* Created by Maurice*/
+
+
+main {
+    padding: 50px;
+}
+
+
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.prep {
+    border: solid black 2px;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+    max-width: 50%; 
+    margin: 0 auto; 
+}
+
+.prep li {
+    list-style: none; 
+    text-align: center; 
+    flex: 1; 
+    margin: 0; 
+}
+
+.nutrition {
+    border: solid black 2px;
+    padding: 10px; 
+    box-sizing: border-box; 
+    max-width: 50%
+}
+
+.nutrition ul {
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nutrition li {
+    text-align: center; 
+}
+
+#ingredients {
+    font-size: 25px;
+}
+
+
+
+.navbar {
+    text-align: center;
+    font-size: x-large;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black; 
+    padding: 10px; 
+}
+
+article > p {
+    font-size: 20px;
+}
+
+main > h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#cake {
+   width: 550px;
+   height: 500px; 
+}
+
+#lamb {
+    width: 500px;
+    height:620px;
+}
+#burrito {
+    width: 400px ;
+    height: 500px ;
+}
+
+.prep {
+    border: solid black 2px;
+    box-sizing: border-box;
+}
+
+#bold {
+    font-size: 30px;
+}
